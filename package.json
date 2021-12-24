@@ -1,0 +1,17 @@
+{
+  "name": "shto-terminal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eta": "^1.12.2",
+    "fastify": "^3.19.0",
+    "fastify-static": "^4.2.2",
+    "point-of-view": "^4.15.1"
+  }
+}

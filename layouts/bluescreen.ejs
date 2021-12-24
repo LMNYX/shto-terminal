@@ -1,0 +1,15 @@
+<head>
+    <title>You ran into severe problems!</title>
+    <link rel="stylesheet" href="/public/css/all.css">
+</head>
+<body class="crt bsod">
+    <div class="bsodbox">
+        <span class="deathtitle">VM Entinco</span>
+        <div class="bsodmessage"><%~ it.message == undefined ? "A fatal exception 0E has occured at 8008:C00068F8 in VxD VM(01) + 000059F8. The current application will be terminated.<br><br>* Press F5 to restart the machine.<br>* Press ALT+F4 to restart more privileged systems. You will lose any unsaved information in all applications." : it.message %></div>
+        <span>Press any key to continue</span>
+    </div>
+</body>
+
+<script>
+    window.onkeydown = ()=>{ location = "/"; }
+</script>
